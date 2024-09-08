@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.title("Using Check Button")
+var1=IntVar()
+#Checkbutton(root,text="male",variable=var1).pack(side='left',anchor='n')
+Checkbutton(root,text="male",variable=var1).grid(row=0)
+var2=IntVar()
+#Checkbutton(root,text="female",variable=var2).pack(side='left',anchor='s')
+Checkbutton(root,text="female",variable=var2).grid(row=1)
+root.mainloop()

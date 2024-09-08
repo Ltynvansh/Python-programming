@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.title("Using Canvas")
+c=Canvas(root,height=20000,width=10000,bg="skyblue")
+c.create_rectangle(230,10,180,70,fill='yellow',outline='red',width=5)
+#c.create_oval(50,60,500,600,fill="yellow",outline="black",width=5)
+c.create_arc(30,100,90,400,start=0,extent=210,fill="blue",width=2)
+c.create_line(10,20,70,80,width=2)
+c.pack()
+root.mainloop()
